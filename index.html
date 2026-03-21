@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso Biocombustibles</title>
+
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        color: white;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 30px;
+    }
+
+    .card {
+        background: rgba(255,255,255,0.05);
+        border-radius: 15px;
+        padding: 25px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        margin-bottom: 20px;
+    }
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+    }
+
+    textarea {
+        min-height: 120px;
+        resize: vertical;
+    }
+
+    button {
+        margin-top: 15px;
+        padding: 12px;
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        background: #00c6ff;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #00a6d6;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    ul {
+        line-height: 1.8;
+    }
+
+	.justificado {
+    	text-align: justify;
+    	line-height: 1.6;
+     }
+
+    iframe {
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+        margin-top: 15px;
+        border: none;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- PAGINA 1 -->
+    <div id="pagina1" class="card">
+
+        <h1>Curso: Biocombustibles</h1>
+<p>
+	<h2>Cuadernillo de Trabajo</h2>
+
+        <h3><strong>Bienvenida</strong></h3>
+
+        <p style="text-align: justify;">
+	Te damos la más cordial bienvenida al curso “Biocombustibles”, un espacio diseñado para explorar una de las alternativas energéticas más prometedoras frente a los desafíos ambientales y energéticos actuales.
+	<p style="text-align: justify;">
+	En un mundo donde la demanda de energía continúa creciendo y los impactos del uso de combustibles fósiles son cada vez más evidentes, los biocombustibles surgen como una opción sostenible que aprovecha recursos orgánicos para generar energía limpia y renovable. A lo largo de este curso, descubrirás cómo residuos agrícolas, biomasa y diversos procesos biotecnológicos pueden transformarse en fuentes útiles de energía como el bioetanol, el biodiésel y el biogás.
+	<p style="text-align: justify;">
+	Este programa ha sido estructurado para brindarte una formación integral, combinando fundamentos teóricos con aplicaciones prácticas, de manera que puedas comprender no solo cómo se producen los biocombustibles, sino también evaluar su impacto ambiental, su viabilidad y su implementación en distintos contextos.
+	<p style="text-align: justify;">
+	No importa si es tu primer acercamiento al tema o si ya cuentas con conocimientos previos: este curso está diseñado para que desarrolles una visión crítica, técnica y sustentable sobre el uso de la bioenergía.
+	<p style="text-align: justify;">
+	Te invitamos a participar activamente, cuestionar, experimentar y proponer soluciones que contribuyan a un futuro energético más responsable.
+        </p>
+
+        <h3>¿A quién va dirigido?</h3>
+	<p style="text-align: justify;">
+	Dirigido a estudiantes, técnicos, profesionistas, productores e ingenieros interesados en comprender y aplicar los biocombustibles como alternativa energética sostenible en contextos industriales, educativos y rurales.
+
+        <h3>Requisitos</h3>
+        <ul>
+		<li>Bata</li>
+		<li>Lentes de seguridad</li>
+		<li>Guantes (Látex, Nitrilo, etc)</li>
+		<li>Libreta o dispositivo para notas</li>
+		<li>Calculadora básica</li>
+        </ul>
+
+        <h3>Habilidades</h3>
+        <ul>
+            <li>Comprensión lectora </li>
+            <li>Análisis básico </li>
+            <li>Trabajo en equipo </li>
+            <li>Interés por la resolución de problemas</li>
+            <li>Seguir normas de seguridad</li>
+        </ul>
+
+        <hr>
+
+        <h2>Registro</h2>
+
+        <input type="text" id="nombre" placeholder="Nombre completo">
+        <input type="text" id="correo" placeholder="Correo electrónico">
+
+        <button onclick="guardarDatos()">Guardar y continuar</button>
+
+    </div>
+
+    <!-- PAGINA 2 -->
+    <div id="pagina2" class="card hidden">
+
+        <h1>Temario</h1>
+	
+	<b>Objetivo</b>
+	<p style="text-align: justify;">
+	Comprender los fundamentos científicos, tecnológicos y ambientales de los biocombustibles, así como su proceso de producción y aplicación, para analizar su viabilidad como alternativa energética sostenible en distintos contextos productivos y sociales.
+
+
+           <p><b>Módulo 1.Introducción a la bioenergía</b></p>
+		<ul>		
+			<li>Concepto de energía y bioenergía</li>
+			<li>Tipos de biomasa</li>
+			<li>Panorama energético global y nacional</li>
+			<li>Ventajas y limitaciones</li>
+		</ul>
+
+           <p><b>Módulo 2: Biocombustibles Líquidos</b></p>
+		<ul>		
+			<li>Introducción a biocombustibles líquidos</li>
+			<li>Bioetanol: materias primas y fermentación</li>
+			<li>Biodiésel: transesterificación </li>
+			<li>Procesos industriales vs artesanales</li>
+		</ul>
+
+           <p><b>Módulo 3: Biocombustibles Gaseosos</b></p>
+		<ul>		
+			<li>Biogás: digestión anaerobia</li>
+			<li>Tipos de biodigestores</li>
+			<li>Aplicaciones rurales e industriales</li>
+		</ul>
+
+           <p><b>Módulo 4: Biocombustibles Avanzados</b></p>
+		<ul>		
+			<li>Segunda y tercera generación</li>
+			<li>Algas y residuos lignocelulósicos</li>
+			<li>Innovaciones tecnológicas</li>
+		</ul>
+
+           <p><b>Módulo 5: Impacto Ambiental y Sustentabilidad</b></p>
+		<ul>		
+			<li>Introducción a sustentabilidad</li>
+			<li>Huella de carbono</li>
+			<li>Análisis de ciclo de vida (ACV)</li>
+			<li>Debate: ¿realmente son sostenibles?</li>
+		</ul>
+	<b>¿Algún otro tema de interés?</b>
+	<input type="text" id="tema" placeholder="Tema">
+
+        <div class="nav">
+            <button onclick="irPagina(1)">← Regresar</button>
+            <button onclick="irPagina(3)">Siguiente →</button>
+        </div>
+
+    </div>
+
+<!-- PAGINA 3 -->
+    <div id="pagina3" class="card hidden">
+
+        <h1>Módulo 1. Introducción a la bioenergía</h1>
+
+        <h3>Pregunta de reflexión</h3>
+
+        <p class="justificado">
+        ¿De dónde creen que proviene la energía que usamos diariamente?
+        </p>
+
+        <textarea id="respuesta1" placeholder="Escribe tu respuesta aquí..."></textarea>
+
+        <button onclick="guardarRespuesta()">Guardar respuesta</button>
+
+        <hr>
+
+        <h3>Presentación del tema</h3>
+
+        <!-- PRESENTACIÓN (Google Slides embebido) -->
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQuFwuS8rN13dlUJL9DlOKDP815GHIRHpT0Gemca6E7ZePditIIHd7KebmovQE38w/pub?start=true&loop=true&delayms=5000"></iframe>
+        <!-- OPCIÓN PDF (si no tienes presentación)
+        <iframe src="archivo.pdf"></iframe>
+        -->
+
+        <div class="nav">
+            <button onclick="irPagina(2)">← Regresar</button>
+            <button onclick="alert('Siguiente sección próximamente')">Siguiente →</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+function guardarDatos() {
+    let nombre = document.getElementById("nombre").value;
+    let correo = document.getElementById("correo").value;
+
+    if(nombre === "" || correo === ""){
+        alert("Completa todos los campos");
+        return;
+    }
+
+    localStorage.setItem("nombre", nombre);
+    localStorage.setItem("correo", correo);
+    localStorage.setItem("pagina", "2");
+
+    mostrarPagina();
+}
+
+function guardarRespuesta(){
+    let respuesta = document.getElementById("respuesta1").value;
+    localStorage.setItem("respuesta1", respuesta);
+    alert("Respuesta guardada");
+}
+
+function mostrarPagina() {
+    let pagina = localStorage.getItem("pagina") || "1";
+
+    document.getElementById("pagina1").classList.add("hidden");
+    document.getElementById("pagina2").classList.add("hidden");
+    document.getElementById("pagina3").classList.add("hidden");
+
+    document.getElementById("pagina" + pagina).classList.remove("hidden");
+
+    if(localStorage.getItem("nombre")){
+        document.getElementById("nombre").value = localStorage.getItem("nombre");
+    }
+
+    if(localStorage.getItem("correo")){
+        document.getElementById("correo").value = localStorage.getItem("correo");
+    }
+
+    if(localStorage.getItem("respuesta1")){
+        document.getElementById("respuesta1").value = localStorage.getItem("respuesta1");
+    }
+}
+
+function irPagina(num){
+    localStorage.setItem("pagina", num);
+    mostrarPagina();
+}
+
+mostrarPagina();
+
+</script>
+
+</body>
+</html>
